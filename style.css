@@ -4,13 +4,21 @@
   /* box-sizing: border-box; */
   /* color: #6c6b6b; */
 }
-
+body{
+  background-color: #32cd32;
+}
+h1{
+  /* フォント */
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Shippori Mincho', serif;
+}
 .razer_rogo{
   display: flex;
   justify-content: space-around;
+  background-color: black;
+
   /* フォント */
   font-family: 'Anton', sans-serif;
-  background-color: black;
 }
 .text_rogo{
   margin: 30px auto;
@@ -21,6 +29,10 @@ nav{
   display: flex;
   justify-content: center;
   text-align: center; 
+
+  /* フォント */
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: 'Shippori Mincho', serif;
 }
  .nav_item{
   margin: 20px;
@@ -45,13 +57,24 @@ nav{
   font-size: 25px;
 }
 
+.my_use_devise_text{
+  display: flex;
+  margin-left: 35px;
+}
+small, table{
+  /* フォント */
+  font-family: 'Shippori Mincho', serif;
+  margin-top: 20px;
+}
+
 .use_devise_image{
   width: 95%;
 }
 table,th,td{
+  background-color: white;
   /*border-collapse: collapse2重になっている線を重ねて1本に*/
   border-collapse: collapse;
-  border: 5px solid green;
+  border: 5px solid #32cd32;
   table-layout: auto;
 }
 table{
@@ -60,5 +83,19 @@ table{
   width: 95%;
 }
 .recommend_devise_image{
-  width: 80%;
+  /* width: 80%; */
+  width: 200px;
+  height: 180px;
+}
+.recommend_devise_image_mouse{
+  width: 200px;
+  height: 140px;
+}
+
+footer{
+  height: 40px;
+  padding-top: 20px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: black;
 }
