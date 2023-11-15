@@ -6,20 +6,17 @@
 }
 header{
   width: 100%;
-  position: fixed;
-  top: 20px;
 }
 body{
   background-color: #32cd32;
 }
 h1{
   /* フォント */
-  font-family: 'Kdam Thmor Pro', sans-serif;
   font-family: 'Shippori Mincho', serif;
 }
 .razer_rogo{
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   background-color: black;
 
   /* フォント */
@@ -36,7 +33,6 @@ nav{
   text-align: center; 
 
   /* フォント */
-  font-family: 'Kdam Thmor Pro', sans-serif;
   font-family: 'Shippori Mincho', serif;
 }
  .nav_item{
@@ -53,11 +49,14 @@ nav{
 }
 .main_visual_text{
   width: 40%;
-  height: 190px;
+  height: 390px;
   /* 半透明 */
   background-color: rgba(44, 99, 29, 0.5);
   text-align: center;
-  padding-top: 200px;
+  align-items: center;
+  display: flex;
+  
+  /* padding-top: 200px; */
   color: azure;
   font-size: 25px;
 }
@@ -86,14 +85,17 @@ table{
   text-align: center;
   width: 95%;
 }
-
+.table_recommend{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* 画像を中央寄せに調整 */
+}
 .recommend_devise_image{
+  max-width: 100%;
+  height: auto;
   width: 200px;
   height: 150px;
 }
-/* .recommend_devise_image_pc{
-  width: 50%;
-} */
 
 textarea {
   width: 70%;
@@ -108,12 +110,10 @@ footer{
   text-align: center;
   background-color: black;
 }
+
 #back img{
-  width: 10%;
-  margin-bottom: 50px;
-}
-#back {
   position: fixed;
-  right: 30px;
-  bottom: 20px;
+  width: 1%;
+  right: 3px;
+  bottom: 65px;
 }
