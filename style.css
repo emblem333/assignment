@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
-  /* color: #6c6b6b; */
 }
 header{
   width: 100%;
@@ -16,7 +14,6 @@ h1{
 }
 .razer_rogo{
   display: flex;
-  /* justify-content: space-around; */
   background-color: black;
 
   /* フォント */
@@ -55,8 +52,6 @@ nav{
   text-align: center;
   align-items: center;
   display: flex;
-  
-  /* padding-top: 200px; */
   color: azure;
   font-size: 25px;
 }
@@ -66,7 +61,7 @@ nav{
   margin-left: 35px;
 }
 .use_devise_image{
-  width: 95%;
+  width: 80%;
 }
 small, table{
   /* フォント */
@@ -85,16 +80,16 @@ table{
   text-align: center;
   width: 95%;
 }
-.table_recommend{
+.recommend_table{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* 画像を中央寄せに調整 */
+  margin-left: 40px;
 }
 .recommend_devise_image{
-  max-width: 100%;
-  height: auto;
-  width: 200px;
-  height: 150px;
+  background-color: white;
+  width: 235px;
+  height: 190px;
+  margin: 2px;
 }
 
 textarea {
